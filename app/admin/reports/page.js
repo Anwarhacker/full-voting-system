@@ -82,7 +82,7 @@ export default function Reports() {
         <select
           value={selectedElection}
           onChange={handleElectionChange}
-          className="block w-full border-gray-300 rounded-md shadow-sm"
+          className="block w-full border-gray-300 rounded-md p-2 shadow-lg"
         >
           <option value="">Choose an election</option>
           {elections.map((election) => (

@@ -62,35 +62,35 @@ export default function AdminLayout({ children }) {
         <nav className="mt-4">
           <Link
             href="/admin"
-            className="block px-4 py-3 text-gray-600 hover:bg-gray-200 hover:text-gray-900 transition-colors"
+            className="block px-4 py-3 text-blue-600 hover:bg-gray-200 hover:text-gray-900 transition-colors"
             onClick={() => setSidebarOpen(false)}
           >
             Dashboard
           </Link>
           <Link
             href="/admin/elections"
-            className="block px-4 py-3 text-gray-600 hover:bg-gray-200 hover:text-gray-900 transition-colors"
+            className="block px-4 py-3 text-blue-600 hover:bg-gray-200 hover:text-gray-900 transition-colors"
             onClick={() => setSidebarOpen(false)}
           >
             Elections
           </Link>
           <Link
             href="/admin/candidates"
-            className="block px-4 py-3 text-gray-600 hover:bg-gray-200 hover:text-gray-900 transition-colors"
+            className="block px-4 py-3 text-blue-600 hover:bg-gray-200 hover:text-gray-900 transition-colors"
             onClick={() => setSidebarOpen(false)}
           >
             Candidates
           </Link>
           <Link
             href="/admin/voters"
-            className="block px-4 py-3 text-gray-600 hover:bg-gray-200 hover:text-gray-900 transition-colors"
+            className="block px-4 py-3 text-blue-600 hover:bg-gray-200 hover:text-gray-900 transition-colors"
             onClick={() => setSidebarOpen(false)}
           >
             Voters
           </Link>
           <Link
             href="/admin/reports"
-            className="block px-4 py-3 text-gray-600 hover:bg-gray-200 hover:text-gray-900 transition-colors"
+            className="block px-4 py-3 text-blue-600 hover:bg-gray-200 hover:text-gray-900 transition-colors"
             onClick={() => setSidebarOpen(false)}
           >
             Reports
@@ -100,7 +100,7 @@ export default function AdminLayout({ children }) {
               handleLogout();
               setSidebarOpen(false);
             }}
-            className="block w-full text-left px-4 py-3 text-gray-600 hover:bg-gray-200 hover:text-gray-900 transition-colors"
+            className="block w-full text-left px-4 py-3 text-red-600  hover:bg-gray-200 hover:text-gray-900 transition-colors"
           >
             Logout
           </button>

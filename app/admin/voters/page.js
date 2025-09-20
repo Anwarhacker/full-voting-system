@@ -80,7 +80,7 @@ export default function Voters() {
   };
 
   return (
-    <div>
+    <div className="text-black">
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 sm:mb-8 gap-4">
         <div>
           <h1 className="text-2xl sm:text-3xl font-bold text-gray-900">
